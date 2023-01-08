@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUD_mob_app.About"
+             Title="About">
+    <VerticalStackLayout BackgroundColor="#a3a384">
+        <Label 
+            Text="About us..."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Title"
+            FontAttributes="Bold"/>
+
+        <Label
+           Text="Aceast este o aplicatie mobila perfecta pentru tine"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Subtitle"
+            FontAttributes="Italic"/>
+
+        <Label
+           Text="In cadrul acestei aplicatii poti sai-ti adaugi masinile tale preferate pe care le-ai inchiriat de la noi! Multumim pentru colaborare si te mai asteptam!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Small"
+        />
+    </VerticalStackLayout>
+</ContentPage>
